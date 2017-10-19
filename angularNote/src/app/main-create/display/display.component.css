@@ -1,0 +1,13 @@
+#scroll {
+    overflow: scroll;
+}
+p {
+    text-align: left;
+}
+
+.left {
+    text-align: right;
+}
+div {
+    margin: 20px;
+}

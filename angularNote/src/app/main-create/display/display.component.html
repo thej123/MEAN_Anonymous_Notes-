@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <fieldset id='scroll'>
+    <div *ngFor="let note of newNote">
+      <fieldset>
+        <p class='left'>Noted on: {{ note.createdAt | date:'medium' }}</p>
+        <p>{{ note.note }}</p>
+      </fieldset>
+
+    </div>
+
+
+  </fieldset>
+  
+</body>
+</html>
